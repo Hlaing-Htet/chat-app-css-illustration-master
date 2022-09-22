@@ -3,8 +3,9 @@ $info: hsl(270, 20%, 96%);
 $font-family-sans-serif: 'Rubik', sans-serif;
 $border-radius: 27px;
 $primary: hsl(276, 55%, 52%);
-$secondary: hsl(271, 50%, 38%);
+$secondary: hsl(272, 100%, 93%);
 $dark: hsl(271, 36%, 24%);
+
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -21,8 +22,8 @@ $dark: hsl(271, 36%, 24%);
 }
 
 .bg-img {
-    width: 600px;
-    height: 750px;
+    width: 520px;
+    height: 700px;
     position: absolute;
     top: 0;
     left: -100px;
@@ -33,12 +34,12 @@ $dark: hsl(271, 36%, 24%);
 
 .bg-img-2 {
     width: 600px;
-    height: 750px;
+    height: 700px;
     position: fixed;
     bottom: 0;
     right: -300px;
     border-top-right-radius: 300px;
-    border-top-left-radius: 300px;
+    border-top-left-radius: 250px;
 }
 
 .fs-7 {

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | chat-app-css-illustration-master</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid bg-info">
+      <div class="row justify-content-center align-items-center vh-100">
+        <div class="col-9 col-lg-4" style="z-index: 1">
+          <div
+            class="bg-white rounded ms-auto p-2 shadow"
+            style="width: 250px; height: 500px"
+          >
+            <div class="h-100 rounded bg-light">
+              <header
+                class="bg-grad rounded-1 rounded-top position-relative"
+                style="height: 63px"
+              >
+                <div
+                  class="bg-white w-50 rounded-bottom position-absolute end-0 translate-middle-x"
+                  style="height: 20px"
+                ></div>
+                <div
+                  class="d-flex h-100 justify-content-between align-items-center pt-3"
+                >
+                  <div class="d-flex align-items-center">
+                    <button class="btn btn-sm">
+                      <img
+                        src="./images/chevron-compact-left.svg"
+                        class=""
+                        alt=""
+                      />
+                    </button>
+                    <img
+                      src="./images/avatar.jpg"
+                      class="me-2 rounded-circle border"
+                      width="25px"
+                      alt=""
+                    />
+                    <div class="d-inline-block">
+                      <p class="mb-0 small text-white fs-7">Samuel Green</p>
+                      <p class="mb-0 small text-white-50 fs-8">
+                        Available to Walk
+                      </p>
+                    </div>
+                  </div>
+
+                  <button class="btn">
+                    <img src="./images/three-dots-vertical.svg" alt="" />
+                  </button>
+                </div>
+              </header>
+              <div class="p-2">
+                <div class="p-2 mb-2 rounded-6 w-75 bg-info">
+                  <p class="fs-8 mb-0 text-primary">
+                    That sounds great. I’d be happy with that.
+                  </p>
+                </div>
+                <div class="p-2 mb-2 rounded-6 w-75 bg-info">
+                  <p class="fs-8 mb-0 text-primary">
+                    Could you send over some pictures of your dog, please?
+                  </p>
+                </div>
+                <div class="text-end mb-2">
+                  <img
+                    src="./images/dog-image-1.jpg"
+                    class="rounded-6 ms-1"
+                    width="42px"
+                    alt=""
+                  />
+                  <img
+                    src="./images/dog-image-2.jpg"
+                    class="rounded-6 ms-1"
+                    width="42px"
+                    alt=""
+                  />
+                  <img
+                    src="./images/dog-image-3.jpg"
+                    class="rounded-6 ms-1"
+                    width="42px"
+                    alt=""
+                  />
+                </div>
+                <div class="p-2 mb-2 ms-auto rounded-6 w-75 bg-white shadow-sm">
+                  <p class="fs-8 mb-0 text-black-50">
+                    Here are a few pictures. She’s a happy girl!
+                  </p>
+                </div>
+                <div class="p-2 mb-2 w-50 ms-auto rounded-6 bg-white shadow-sm">
+                  <p class="fs-8 mb-0 text-black-50">Can you make it?</p>
+                </div>
+                <div class="p-2 mb-1 rounded-6 w-75 bg-info">
+                  <p class="fs-8 mb-0 text-primary">
+                    She looks so happy! The time we discussed works. How long
+                    shall I take her out for?
+                  </p>
+                </div>
+                <div
+                  class="p-1 mb-2 rounded-6 w-75 bg-grad-2 d-flex justify-content-between"
+                >
+                  <div>
+                    <button class="btn btn-sm py-0">
+                      <img src="./images/circle.svg" alt="" />
+                    </button>
+                    <p class="mb-0 d-inline-block fs-8 text-white">
+                      30 minute walk
+                    </p>
+                  </div>
+                  <p class="mb-0 d-inline-block fw-bold text-white me-2">$29</p>
+                </div>
+                <div
+                  class="p-1 mb-2 rounded-6 w-75 bg-grad-2 d-flex justify-content-between"
+                >
+                  <div>
+                    <button class="btn btn-sm py-0">
+                      <img src="./images/circle.svg" alt="" />
+                    </button>
+                    <p class="mb-0 d-inline-block fs-8 text-white">
+                      1 hour walk
+                    </p>
+                  </div>
+                  <p class="mb-0 d-inline-block fw-bold text-white me-2">$49</p>
+                </div>
+                <div
+                  class="w-100 p-1 rounded-6 bg-white d-flex justify-content-between"
+                >
+                  <input
+                    type="text"
+                    placeholder="Type a message....."
+                    class="border-0 ps-4 fs-8 w-75 d-inline"
+                  />
+                  <button class="btn rounded-circle btn-sm btn-dark">
+                    <img src="./images/chevron-right.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1 d-none d-lg-block"></div>
+        <div class="col-lg-4" style="z-index: 1">
+          <div>
+            <h1
+              class="text-dark display-5 fw-bold mb-4 text-center text-lg-start"
+            >
+              Simple booking
+            </h1>
+            <p class="text-black-50 text-center text-lg-start px-4 px-lg-0">
+              Stay in touch with our dog walkers through the chat interface.
+              This makes it easy to discuss arrangements and make bookings. Once
+              the walk has been completed you can rate your walker and book
+              again all through the chat.
+            </p>
+          </div>
+        </div>
+        <div class="bg-grad-3 bg-img"></div>
+        <div class="bg-secondary bg-img-2 opacity-25 d-none d-lg-block"></div>
+      </div>
+    </div>
+  </body>
+</html>
